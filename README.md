@@ -26,7 +26,7 @@ This program serves the purpose of assembling Genes from an RNA-seq file (1. Inp
 
 Input: .txt with RNA-Seq data (ENSEMBLE ID, Gene ID, Fold change), .txt files with ChIP-seq data (Gene ID, peak chr, peak start, peak stop, summit chr, summit start, summit stop)
 
-Output: .bed file with ChIP-seq peaks of all genes defined in RNA-seq file (peak chr, peak start, peak stop, Gene ID)
+Output: .bed files with ChIP-seq peaks of all genes defined in RNA-seq file (peak chr, peak start, peak stop, Gene ID); peaks for up/downregulated genes are saved in separate files; whole peaks and 200nt summit of peaks saved in separate files for subsequent analysis
 
 Author: Vera Laub
 Last Edited: 2023-02-20
