@@ -16,6 +16,7 @@ Output:
 Note on implementation: Ideally, script should not only be applied once but multiple (e.g. 1000x?) times, in order to compute randomized background and followed by overlap with bedtools intersect
 
 Author: Vera Laub
+
 Last Edited: 2022-11-09
 
 
@@ -29,5 +30,6 @@ Input: .txt with RNA-Seq data (ENSEMBLE ID, Gene ID, Fold change), .txt files wi
 Output: .bed files with ChIP-seq peaks of all genes defined in RNA-seq file (peak chr, peak start, peak stop, Gene ID); peaks for up/downregulated genes are saved in separate files; whole peaks and 200nt summit of peaks saved in separate files for subsequent analysis
 
 Author: Vera Laub
+
 Last Edited: 2023-02-20
 
