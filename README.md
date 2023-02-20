@@ -3,7 +3,7 @@ Collection of small programs to be used for ChIP-seq analysis.
 
 
 
-Program name: randomized_peak_shift
+## Program name: randomized_peak_shift
 
 This script serves to construct randomized peak shifts for ChIP-seq peaks.
 
@@ -20,7 +20,7 @@ Last Edited: 2022-11-09
 
 
 
-Program name: chip-seq_rna-seq_peak_collection
+## Program name: chip-seq_rna-seq_peak_collection
 
 This program serves the purpose of assembling Genes from an RNA-seq file (1. Input) and collecting the respective ChIP-seq peaks (2. Input), i.e. PBX1 ChIP-seq peaks of genes that are differentially regulated in Pbx1 kd RNA-seq in aNS cells (but can be used on any kind of ChIP/RNA-seq, if necessary data is provided). Code meant to be flexible :)!
 
