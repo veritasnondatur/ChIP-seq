@@ -2,6 +2,19 @@
 Collection of small programs to be used for ChIP-seq analysis.
 
 
+## count_chip_peaks
+
+This program serves to find genes that are bound by PBX1 in several locations. To find respective genes, the annotations to both strands
+are used and saved in two separate output dicionaries.
+
+Input: .csv file from PBX1 ChIP-Seq
+
+Output: Dictionary, counting the number of peaks for each gene that are bound by PBX1 is listed.
+
+Author: Vera Laub
+
+Last edited: 2019-12-03
+
 
 ## randomized_peak_shift
 
